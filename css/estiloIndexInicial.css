@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+body{
+    background-image: url(../img/backjulio.jpg);
+    background-size: 100%;
+}
+.botonera {
+text-align: center;
+}
+
+.botonera>li {
+    display: inline-block;
+    margin: 15% auto;
+}
+
+.BUTTON_GCF {
+    background: #C6FFBF;
+    background-image: -webkit-linear-gradient(top, #B36296, #FFBFE8);
+    background-image: -moz-linear-gradient(top, #B36296, #FFBFE8);
+    background-image: -ms-linear-gradient(top, #B36296, #FFBFE8);
+    background-image: -o-linear-gradient(top, #B36296, #FFBFE8);
+    background-image: linear-gradient(to bottom,#B36296, #FFBFE8);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 0px #FFAE00;
+    -webkit-box-shadow: 1px 1px 20px 0px #FFAE00;
+    -moz-box-shadow: 1px 1px 20px 0px #FFAE00;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFAE00 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.BUTTON_GCF:hover { 
+   background: #B36296;
+   background-image: -webkit-linear-gradient(top, #B36296, #FFBFE8);
+   background-image: -moz-linear-gradient(top, #B36296, #FFBFE8);
+   background-image: -ms-linear-gradient(top, #B36296, #FFBFE8);
+   background-image: -o-linear-gradient(top, #B36296, #FFBFE8);
+   background-image: linear-gradient(to bottom, #B36296, #FFBFE8);
+   text-decoration: none;
+}
